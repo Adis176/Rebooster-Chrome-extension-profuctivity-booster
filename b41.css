@@ -1,0 +1,113 @@
+/* body{
+  filter: blur(10px) !important;
+} */
+
+:root{
+  --sizes: 4px;
+}; 
+
+img{
+  filter: blur(var(--sizes));
+}
+
+img:hover{
+  filter: blur(0px)!important;
+}
+
+h1{
+  filter: blur(var(--sizes));
+}
+
+h1:hover{
+  filter: blur(0px)!important;
+}
+
+h2{
+  filter: blur(var(--sizes));
+}
+
+h2:hover{
+  filter: blur(0px)!important;
+}
+
+h3{
+  filter: blur(var(--sizes));
+}
+
+h3:hover{
+  filter: blur(0px)!important;
+}
+
+h4{
+  filter: blur(var(--sizes));
+}
+
+h4:hover{
+  filter: blur(0px)!important;
+}
+
+h5{
+  filter: blur(var(--sizes));
+}
+
+h5:hover{
+  filter: blur(0px)!important;
+}
+
+h6{
+  filter: blur(var(--sizes));
+}
+
+h6:hover{
+  filter: blur(0px)!important;
+}
+
+div{
+  filter: blur(var(--sizes));
+}
+
+div:hover{
+  filter: blur(0px)!important;
+}
+
+input{
+  filter: blur(var(--sizes));
+}
+
+input:hover{
+  filter: blur(0px)!important;
+} 
+
+
+
+
+/* 
+p{
+  filter: blur(var(--sizes));
+}
+
+p:hover{
+  filter: blur(0px)!important;
+} 
+
+a{
+  filter: blur(var(--sizes));
+}
+
+a:hover{
+  filter: blur(0px)!important;
+} 
+
+button{
+  filter: blur(var(--sizes));
+}
+
+button:hover{
+  filter: blur(0px)!important;
+}  */
+
+
+
+
+
+
